@@ -31,7 +31,7 @@ Display only legal events                    : # asmevents --host x.x.x.x -s leg
 
 #### Without defining arguments
 ```bash
-python3 asmevents.py --host 155.207.lab.es.f5net.com        
+python3 asmevents.py --host lab.es.com        
 The status is set to all if -s isn't used; to pull specific status records, use the flag -s or --status
 The user is set to default GUI admin, to use different username use the flag -u or --user
 Enter password for the user admin: 
@@ -55,7 +55,7 @@ Enter password for the user admin:
 ```
 #### With -rq argument
 ```bash
-python3 asmevents.py --host 155.207.lab.es.f5net.com -rq
+python3 asmevents.py --host lab.es.com -rq
 The status is set to all if -s isn't used; to pull specific status records, use the flag -s or --status
 The user is set to default GUI admin, to use different username use the flag -u or --user
 Enter password for the user admin: 
